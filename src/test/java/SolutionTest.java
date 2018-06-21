@@ -13,7 +13,11 @@ public class SolutionTest {
     @Test
     public void testSomeDashLowerStart() {
         String input = "the-Stealth-Warrior";
-        System.out.println("input: "+input);
+        System.out.println("input: " + input);
         assertEquals("theStealthWarrior", Solution.toCamelCase(input));
+    }
+    @Test
+    public void test() {
+        assertEquals(23, new Solution().solution(10));
     }
 }

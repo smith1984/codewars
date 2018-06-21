@@ -17,7 +17,4 @@ public class Solution {
                .substring(1);
     }
 
-    public static void main(String[] args) {
-        Stream.of("the_Stealth_Warrior".split("[\\-_]")).forEach(System.out::println);
-    }
 }
